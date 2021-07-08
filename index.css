@@ -1,0 +1,38 @@
+*{
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(197, 231, 220);
+    margin-left:40%;
+    margin-top: 10%;
+}
+input[id=tamanho]{
+    font-size: 20px;
+    width: 50px;
+}
+div.entradas{
+    
+    font-size: 27px;
+}
+button{
+    font-size: 20px;
+
+}
+div.senha{
+    margin-left: 70px;
+    font-size: 45px;
+}
+div.Saida{
+    margin-left: -150px;
+    
+}
+input[type=text]{
+    font-size: 36px;
+    width: 510px;
+    height:52px;
+}
+.copy{
+    height: 58px;
+    position: absolute;
+}

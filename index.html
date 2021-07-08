@@ -1,0 +1,36 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Gerador de senhas</h1>
+    <div class="entradas">
+        <label for="tamanho">Tamanho da senha</label>
+        <input type="number" id="tamanho" value="10" min="6" max="20"><br>
+        <input type="checkbox" id="capital" checked>
+        <label for="capital">Letras maiúsculas</label><br>
+        <input type="checkbox" id="lower" checked>
+        <label for="lower">Letras minúsculas</label><br>
+        <input type="checkbox" id="caracteres" checked>
+        <label for="caracteres">Caracteres</label><br>
+        <input type="checkbox" id="numbers" checked>
+        <label for="numbers">Números</label><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="button" onclick="workdude()">Gerar senha</button>
+    </div>
+    
+        <div class="senha">
+            <br>
+        <label for="senha">Senha</label><br>
+        </div>
+        <div class="Saida">
+        <input type="text" id="senha" value="">
+        <button type="button" class="copy" onclick="myFunction()">Copiar</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
